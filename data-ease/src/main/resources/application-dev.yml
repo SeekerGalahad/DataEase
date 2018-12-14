@@ -43,10 +43,9 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
   # Elasticsearch配置
-#  data:
-#    elasticsearch:
-#      cluster-name: elk_cluster
-#      cluster-nodes: 127.0.0.1:9300
+  jest:
+    elasticsearch:
+      cluster-nodes: http://127.0.0.1:9300
 
   #redis
   redis:
